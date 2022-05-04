@@ -94,7 +94,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "grootdb",
         "USER": "root",
-        "PASSWORD": "8712",
+        "PASSWORD": "871218",
         "HOST": "localhost",
         "PORT": "3306",
     }
