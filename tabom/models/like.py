@@ -11,5 +11,7 @@ class Like(BaseModel):
 
     class Meta:
         constraints = [
-            models.UniqueConstraint(fields=["user", "article"], name="unique_user_article"),
+            models.UniqueConstraint(
+                fields=["user", "article"], name="unique_user_article"
+            ),
         ]
